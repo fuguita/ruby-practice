@@ -38,4 +38,18 @@ class Car
   end
 
   Car.turn("左")
-  
+
+
+
+
+
+
+
+
+  class Car
+    def self.turn(carb)
+      puts "#{carb}に曲がります。"
+    end
+  end
+
+Car.turn("左")
